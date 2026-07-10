@@ -46,7 +46,7 @@
       "mock.drag": " 拖拽物理",
       "mock.expr": "表情设置...",
       "mock.hotkey": "快捷键设置...",
-      "mock.theme": "青石蓝 ▾",
+      "mock.theme": "炫酷橙 ▾",
       "features.eyebrow": "核心能力",
       "features.h2": "为桌面 Live2D 而生的每一个细节",
       "features.desc": "从锚点跟随到直播露出，Live2DCursor 把 VTuber 级别的桌面交互体验装进一个轻量应用。",
