@@ -113,6 +113,12 @@ code {
   background-clip: text;
   color: transparent;
 }
+.brand-mark {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
 .nav-links {
   display: flex;
   align-items: center;
@@ -202,7 +208,7 @@ code {
   display: block;
   opacity: 0;
   transform: scale(1.03);
-  filter: brightness(0.82) saturate(1.08);
+  filter: brightness(1.1) saturate(1.05);
   transition: opacity 1.4s ease;
 }
 .hero-video.is-visible { opacity: 1; }
@@ -211,8 +217,8 @@ code {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(115deg, rgba(18, 15, 13, 0.88) 0%, rgba(18, 15, 13, 0.6) 40%, rgba(18, 15, 13, 0.32) 62%, rgba(18, 15, 13, 0.62) 100%),
-    linear-gradient(0deg, rgba(18, 15, 13, 0.95) 0%, transparent 18%);
+    linear-gradient(115deg, rgba(18, 15, 13, 0.55) 0%, rgba(18, 15, 13, 0.35) 40%, rgba(18, 15, 13, 0.15) 62%, rgba(18, 15, 13, 0.35) 100%),
+    linear-gradient(0deg, rgba(18, 15, 13, 0.55) 0%, transparent 18%);
 }
 
 .hero-blobs { position: absolute; inset: 0; z-index: 0; }
@@ -329,92 +335,6 @@ code {
   color: transparent;
 }
 .hero-stats span { font-size: 0.82rem; color: var(--text-dim); }
-
-/* ---------- hero mock panel ---------- */
-.hero-panel-wrap {
-  position: relative;
-  z-index: 2;
-  flex: 0 0 auto;
-}
-.mock-glow {
-  position: absolute;
-  inset: -40px;
-  background: radial-gradient(circle, rgba(255, 158, 106, 0.35), transparent 70%);
-  filter: blur(30px);
-  z-index: -1;
-}
-.mock-panel {
-  width: 300px;
-  background: linear-gradient(180deg, #241811, #150e09);
-  border: 1px solid rgba(255, 158, 106, 0.35);
-  border-radius: 16px;
-  padding: 16px 18px 22px;
-  box-shadow: 0 30px 70px -20px rgba(0, 0, 0, 0.6);
-  animation: hover-panel 6s ease-in-out infinite;
-  font-size: 0.82rem;
-}
-@keyframes hover-panel {
-  0%, 100% { transform: translateY(0) rotate(-1deg); }
-  50% { transform: translateY(-14px) rotate(1deg); }
-}
-.mock-titlebar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 14px;
-  color: #ffc9a3;
-  font-weight: 700;
-}
-.mock-dot {
-  width: 9px; height: 9px; border-radius: 50%;
-  background: var(--orange);
-  box-shadow: 0 0 10px var(--orange);
-}
-.mock-row {
-  color: #e8ddd2;
-  margin-bottom: 12px;
-  font-size: 0.78rem;
-}
-.mock-icon { margin-right: 4px; }
-.mock-check {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: #ddd2c6;
-  margin-bottom: 9px;
-  font-size: 0.8rem;
-}
-.chk {
-  width: 16px; height: 16px;
-  border-radius: 5px;
-  border: 1px solid #5c4230;
-  background: #1f150f;
-  flex: 0 0 auto;
-}
-.chk.on {
-  background: var(--orange);
-  border-color: var(--orange);
-  box-shadow: 0 0 8px rgba(255, 158, 106, 0.6);
-}
-.mock-btn {
-  background: linear-gradient(120deg, #FF9E6A, #E8672E);
-  color: #20120a;
-  font-weight: 700;
-  text-align: center;
-  padding: 9px;
-  border-radius: 8px;
-  margin-top: 10px;
-  font-size: 0.8rem;
-}
-.mock-select {
-  margin-top: 10px;
-  background: #1f150f;
-  border: 1px solid rgba(255, 158, 106, 0.3);
-  border-radius: 8px;
-  padding: 8px 10px;
-  color: #ffd9bd;
-  font-size: 0.8rem;
-}
 
 /* ---------- feature grid ---------- */
 .feature-grid {
@@ -643,8 +563,6 @@ main { position: relative; z-index: 1; margin: 40px 0; }
   .nav-toggle { display: flex; }
   .feature-grid { grid-template-columns: 1fr; }
   .step-arrow { transform: rotate(90deg); }
-  .hero-panel-wrap { margin: 0 auto; }
-  .mock-panel { width: min(90vw, 300px); }
   .hero-video-wrap { display: none; }
 }
 
