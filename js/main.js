@@ -69,7 +69,6 @@
       "team.modeler.name": "建模师",
       "team.modeler.bio": "自 2020 年起从事 Live2D 建模，拥有丰富的商业委托与个人作品经验。希望 Live2D 能有更多的运用场所，于是计划起了 Live2D Cursor 项目。",
       "team.modeler.tag1": "建模经验始于 2020",
-      "team.modeler.tag2": "获官方奖项认可",
       "team.dev.role": "程序开发",
       "team.dev.name": "程序员",
       "team.dev.bio": "用原生 C++ 和 Cubism SDK 开发 Live2D Cursor，专注于让它保持轻量、跟手、好用。",
