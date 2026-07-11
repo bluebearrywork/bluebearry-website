@@ -318,22 +318,6 @@ code {
 }
 .btn-ghost:hover { background: rgba(255, 255, 255, 0.12); transform: translateY(-2px); }
 
-.hero-stats {
-  display: flex;
-  gap: 36px;
-  flex-wrap: wrap;
-}
-.hero-stats div { display: flex; flex-direction: column; }
-.hero-stats strong {
-  font-size: 1.6rem;
-  font-weight: 800;
-  background: var(--grad);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.hero-stats span { font-size: 0.82rem; color: var(--text-dim); }
-
 /* ---------- feature grid ---------- */
 .feature-grid {
   max-width: var(--maxw);
@@ -558,7 +542,7 @@ main { position: relative; z-index: 1; margin: 40px 0; }
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
   .hero { justify-content: center; text-align: center; }
   .hero-inner { max-width: 640px; }
-  .hero-actions, .hero-stats { justify-content: center; }
+  .hero-actions { justify-content: center; }
   .hero-desc { margin-left: auto; margin-right: auto; }
 }
 

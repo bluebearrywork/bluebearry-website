@@ -32,7 +32,6 @@
       "hero.sub": "Live2D鼠标桌宠",
       "hero.desc": "导入任意 Live2D 模型，让它跟随鼠标移动，并加入物理效果、快捷键表情与待机动画。无论是直播、绘画、视频录制，还是日常使用电脑，都能让你的角色陪伴你的每一次点击。",
       "hero.cta": "Steam 上架准备中",
-      "hero.stat2": "语言本地化",
       "features.eyebrow": "核心功能",
       "features.h2": "每一个功能都为Live2D模型与键鼠互动而设计",
       "features.desc": "轻松体验 Live2D 模型互动的乐趣！",
