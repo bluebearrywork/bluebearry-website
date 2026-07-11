@@ -114,8 +114,9 @@ code {
   color: transparent;
 }
 .brand-mark {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  margin-top: -2px;
   object-fit: contain;
   display: block;
 }
