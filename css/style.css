@@ -217,7 +217,7 @@ code {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(115deg, rgba(18, 15, 13, 0.55) 0%, rgba(18, 15, 13, 0.35) 40%, rgba(18, 15, 13, 0.15) 62%, rgba(18, 15, 13, 0.35) 100%),
+    linear-gradient(90deg, rgba(18, 15, 13, 0.96) 0%, rgba(18, 15, 13, 0.85) 32%, rgba(18, 15, 13, 0.5) 50%, rgba(18, 15, 13, 0.15) 68%, transparent 85%),
     linear-gradient(0deg, rgba(18, 15, 13, 0.55) 0%, transparent 18%);
 }
 
