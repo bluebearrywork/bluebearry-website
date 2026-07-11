@@ -412,36 +412,6 @@ code {
   padding: 0 4px;
 }
 
-/* ---------- themes ---------- */
-.theme-grid {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 18px;
-}
-.theme-card {
-  background: var(--c1);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  padding: 22px 18px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: color-mix(in srgb, var(--c2) 70%, white 20%);
-  font-weight: 700;
-  font-size: 0.92rem;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.theme-card:hover { transform: translateY(-5px) scale(1.02); box-shadow: 0 16px 34px -18px var(--c2); }
-.theme-swatch {
-  width: 34px; height: 34px;
-  border-radius: 50%;
-  background: var(--c2);
-  box-shadow: 0 0 16px var(--c2);
-  flex: 0 0 auto;
-}
-
 /* ---------- languages ---------- */
 .lang-chips {
   display: flex;
@@ -509,22 +479,11 @@ main { position: relative; z-index: 1; margin: 40px 0; }
 .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
 .footer-links a { color: var(--text-dim); font-size: 0.92rem; transition: color 0.2s ease; }
 .footer-links a:hover { color: var(--text); }
-.footer-live2d {
+.footer-note {
   max-width: var(--maxw);
   margin: 30px auto 0;
   padding-top: 20px;
   border-top: 1px solid var(--card-border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.footer-live2d-logo { height: 20px; width: auto; opacity: 0.8; transition: opacity 0.2s ease; }
-.footer-live2d a:hover .footer-live2d-logo { opacity: 1; }
-.footer-live2d span { color: var(--text-dim); font-size: 0.82rem; font-weight: 600; }
-.footer-note {
-  max-width: var(--maxw);
-  margin: 14px auto 0;
   color: #6b6878;
   font-size: 0.78rem;
 }

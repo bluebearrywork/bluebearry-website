@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title data-i18n="meta.title">Live2DCursor — Anchor Your Live2D Model to Your Mouse Cursor</title>
-<meta name="description" id="metaDescription" content="Live2DCursor anchors any Live2D model to your mouse cursor — the model moves with your cursor everywhere, dragging whips up springy physics, and hotkeys fire off expressions. Lightweight native C++, with an OBS-friendly background mode, 6 built-in themes, and 5 languages.">
+<meta name="description" id="metaDescription" content="Live2DCursor anchors any Live2D model to your mouse cursor — the model moves with your cursor everywhere, dragging whips up springy physics, and hotkeys fire off expressions. Lightweight native C++, with an OBS-friendly background mode and 5 languages.">
 <link rel="icon" href="assets/brand/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +33,6 @@
     </div>
     <a href="#features" data-i18n="nav.features">Features</a>
     <a href="#how" data-i18n="nav.how">How It Works</a>
-    <a href="#themes" data-i18n="nav.themes">Themes</a>
     <a href="#languages" data-i18n="nav.languages">Languages</a>
     <a href="#" target="_blank" rel="noopener" class="nav-cta js-steam-link">
       <span aria-hidden="true">🎮</span>
@@ -65,26 +64,24 @@
   </div>
 
   <div class="hero-inner">
-    <p class="eyebrow" data-i18n="hero.eyebrow">Native C++ · Live2D Anchored to Your Cursor</p>
+    <p class="eyebrow" data-i18n="hero.eyebrow">Easily Make Your Live2D Model Follow Your Mouse!</p>
     <h1 class="hero-title">
       <span class="grad-text">Live2DCursor</span>
-      <span class="hero-sub" data-i18n="hero.sub">Anchored to Your Cursor</span>
+      <span class="hero-sub" data-i18n="hero.sub">Live2D Mouse Pet</span>
     </h1>
     <p class="hero-desc" data-i18n="hero.desc">
-      Live2DCursor locks an anchor point on your Live2D model straight onto your mouse cursor — wherever your cursor goes, your model goes with it.
-      Dragging whips up springy physics, and a key or click fires off expressions instantly. Lightweight and stream-friendly, it turns your cursor into a living character.
+      Import any Live2D model and let it follow your mouse — complete with physics effects, hotkey-triggered expressions, and idle animations.
+      Whether you're streaming, drawing, recording video, or just using your computer day to day, your character can accompany every click.
     </p>
 
     <div class="hero-actions">
       <a class="btn btn-primary js-steam-link" href="#" target="_blank" rel="noopener">
-        <span data-i18n="hero.cta">⬇ Get it on Steam</span>
+        <span data-i18n="hero.cta">Coming Soon to Steam</span>
       </a>
     </div>
 
     <div class="hero-stats">
-      <div><strong>6</strong><span data-i18n="hero.stat1">Built-in Themes</span></div>
       <div><strong>5</strong><span data-i18n="hero.stat2">Languages</span></div>
-      <div><strong>1</strong><span data-i18n="hero.stat3">Click Steam Install</span></div>
     </div>
   </div>
 
@@ -95,9 +92,9 @@
 <!-- ================= FEATURES ================= -->
 <section class="section" id="features">
   <div class="section-head">
-    <p class="eyebrow center" data-i18n="features.eyebrow">Core Capabilities</p>
-    <h2 data-i18n="features.h2">Every Detail Built to Bind Live2D to Your Cursor</h2>
-    <p class="section-desc" data-i18n="features.desc">From cursor anchor tracking to stream-ready visibility, Live2DCursor packs a VTuber-grade cursor-bound interaction experience into one lightweight app.</p>
+    <p class="eyebrow center" data-i18n="features.eyebrow">Core Features</p>
+    <h2 data-i18n="features.h2">Every Feature Designed Around Live2D + Mouse &amp; Keyboard Interaction</h2>
+    <p class="section-desc" data-i18n="features.desc">Easily enjoy the fun of interacting with your Live2D model!</p>
   </div>
 
   <div class="feature-grid">
@@ -105,19 +102,19 @@
     <article class="feature-card reveal">
       <div class="feature-icon" style="--tint:#FF9E6A"><img src="assets/icons/cursor-precision-select.png" alt=""></div>
       <h3 data-i18n="features.f1.title">Anchor Tracking System</h3>
-      <p data-i18n="features.f1.desc">Auto-detect, click to select, or search by ArtMesh ID to pick any point on your model — lock it to your mouse cursor and the whole model rides along wherever you move.</p>
+      <p data-i18n="features.f1.desc">Auto-detect, click to select, or search by ArtMesh ID to precisely lock the model's “anchor point,” so it always follows your cursor.</p>
     </article>
 
     <article class="feature-card reveal">
       <div class="feature-icon" style="--tint:#FFC9A3"><img src="assets/icons/cursor-move.png" alt=""></div>
       <h3 data-i18n="features.f2.title">Drag Physics</h3>
-      <p data-i18n="features.f2.desc">Because the model is anchored to your cursor, swinging it around whips up springy physics feedback, with an adjustable gain so every movement feels soft and full of weight.</p>
+      <p data-i18n="features.f2.desc">Dragging the model triggers its bound physics feedback, with adjustable gain.</p>
     </article>
 
     <article class="feature-card reveal">
       <div class="feature-icon" style="--tint:#C9481F"><img src="assets/icons/toggle.png" alt=""></div>
       <h3 data-i18n="features.f3.title">Expressions &amp; Hotkeys</h3>
-      <p data-i18n="features.f3.desc">Trigger expressions from any key or mouse button, with Hold / Toggle modes and fully configurable fade in/out timing.</p>
+      <p data-i18n="features.f3.desc">Trigger expressions from any key or mouse button, with Hold / Click modes and fully configurable fade in/out timing.</p>
     </article>
 
     <article class="feature-card reveal">
@@ -135,7 +132,7 @@
     <article class="feature-card reveal">
       <div class="feature-icon" style="--tint:#5b8dee"><img src="assets/icons/user-list.png" alt=""></div>
       <h3 data-i18n="features.f6.title">Multi-Model Management</h3>
-      <p data-i18n-html="features.f6.desc">Drag a <code>.model3.json</code> onto the window to load it — switch between characters anytime, each with its own scale and position offset.</p>
+      <p data-i18n-html="features.f6.desc">Drag a <code>.model3.json</code> onto the window to load it — switch between characters anytime, with settings you can save individually to your computer.</p>
     </article>
 
   </div>
@@ -145,7 +142,7 @@
 <section class="section alt" id="how">
   <div class="section-head">
     <p class="eyebrow center" data-i18n="how.eyebrow">Up and Running in 3 Steps</p>
-    <h2 data-i18n="how.h2">From Loading a Model to Riding Your Cursor in Under a Minute</h2>
+    <h2 data-i18n="how.h2">From Loading a Model to Desktop Buddy in Under a Minute</h2>
   </div>
 
   <div class="steps">
@@ -157,44 +154,14 @@
     <div class="step-arrow" aria-hidden="true">→</div>
     <div class="step reveal">
       <div class="step-num">02</div>
-      <h3 data-i18n="how.s2.title">Set an Anchor</h3>
-      <p data-i18n="how.s2.desc">Auto-detect or click to choose an anchor point on the model — from then on it locks to your mouse cursor, and the whole model follows wherever your cursor goes.</p>
+      <h3 data-i18n="how.s2.title">Configure the Model</h3>
+      <p data-i18n="how.s2.desc">Click to choose the anchor point, size, and physics effects — from then on, the model follows your mouse.</p>
     </div>
     <div class="step-arrow" aria-hidden="true">→</div>
     <div class="step reveal">
       <div class="step-num">03</div>
       <h3 data-i18n="how.s3.title">Bind Hotkeys</h3>
-      <p data-i18n="how.s3.desc">Set up hotkeys for expressions, always-on-top, and overlay mode — then let your cursor-bound character take it from there.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= THEMES ================= -->
-<section class="section" id="themes">
-  <div class="section-head">
-    <p class="eyebrow center" data-i18n="themes.eyebrow">Make It Yours</p>
-    <h2 data-i18n="themes.h2">6 Built-in Themes — There's One for Every Mood</h2>
-    <p class="section-desc" data-i18n="themes.desc">The control panel itself can be “dressed up” too — switch color schemes in one click to match how you're feeling today.</p>
-  </div>
-
-  <div class="theme-grid">
-    <div class="theme-card reveal" style="--c1:#1a1a1f;--c2:#3d5afe">
-      <div class="theme-swatch"></div><span data-i18n="theme.dark">Dark</span>
-    </div>
-    <div class="theme-card reveal" style="--c1:#fff0f2;--c2:#d96185">
-      <div class="theme-swatch"></div><span data-i18n="theme.sakura">Sakura Pink</span>
-    </div>
-    <div class="theme-card reveal" style="--c1:#21242b;--c2:#00d1f2">
-      <div class="theme-swatch"></div><span data-i18n="theme.cyan">Cyan Slate</span>
-    </div>
-    <div class="theme-card reveal" style="--c1:#f0fbf2;--c2:#59ad7a">
-      <div class="theme-swatch"></div><span data-i18n="theme.mint">Mint Green</span>
-    </div>
-    <div class="theme-card reveal" style="--c1:#1f1a29;--c2:#a67ae0">
-      <div class="theme-swatch"></div><span data-i18n="theme.lavender">Lavender Dream</span>
-    </div>
-    <div class="theme-card reveal" style="--c1:#14120f;--c2:#ff9e26">
-      <div class="theme-swatch"></div><span data-i18n="theme.orange">Neon Orange</span>
+      <p data-i18n="how.s3.desc">Set up hotkeys for expressions, enable overlay mode, and you're all set.</p>
     </div>
   </div>
 </section>
@@ -221,7 +188,7 @@
   <h2 data-i18n="cta.h2">Ready to Anchor Your Model to Your Cursor?</h2>
   <p data-i18n="cta.desc">Live2DCursor is built natively on the Live2D Cubism SDK. Get it now on Steam.</p>
   <div class="hero-actions center">
-    <a class="btn btn-primary js-steam-link" href="#" target="_blank" rel="noopener" data-i18n="cta.btn">⬇ Get it on Steam</a>
+    <a class="btn btn-primary js-steam-link" href="#" target="_blank" rel="noopener" data-i18n="cta.btn">Coming Soon to Steam</a>
   </div>
 </section>
 
@@ -232,26 +199,17 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <span class="brand-text">Live2DCursor</span>
-      <p data-i18n="footer.tagline">Live2D, anchored to your mouse cursor · built with C++ and ❤</p>
+      <p data-i18n="footer.tagline">A lightweight Live2D mouse-following desktop pet</p>
     </div>
     <div class="footer-links">
       <a href="#" target="_blank" rel="noopener" class="js-steam-link">Steam</a>
       <a href="#features" data-i18n="nav.features">Features</a>
-      <a href="#themes" data-i18n="nav.themes">Themes</a>
       <a href="#languages" data-i18n="nav.languages">Languages</a>
     </div>
   </div>
 
-  <div class="footer-live2d">
-    <a href="https://www.live2d.com/" target="_blank" rel="noopener">
-      <img src="assets/brand/live2d-logo.png" alt="Live2D" class="footer-live2d-logo">
-    </a>
-    <span data-i18n="footer.poweredBy">Powered by Live2D Cubism SDK</span>
-  </div>
-
   <p class="footer-note" data-i18n-html="footer.note">
     Built on the <a href="https://www.live2d.com/" target="_blank" rel="noopener">Live2D Cubism SDK</a>.
-    Icons from the Game Icon Pack (SIL OFL). This site has no official affiliation with Live2D Inc.
   </p>
 </footer>
 
