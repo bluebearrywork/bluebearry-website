@@ -231,8 +231,6 @@ code {
   animation: float 14s ease-in-out infinite;
 }
 .blob-a { width: 480px; height: 480px; background: var(--orange); top: -140px; left: -100px; }
-.blob-b { width: 420px; height: 420px; background: var(--rust); bottom: -160px; right: -60px; animation-delay: -4s; }
-.blob-c { width: 320px; height: 320px; background: var(--peach); top: 40%; left: 46%; animation-delay: -8s; opacity: 0.35; }
 
 @keyframes float {
   0%, 100% { transform: translate(0, 0) scale(1); }

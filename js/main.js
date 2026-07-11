@@ -164,7 +164,7 @@
     var isWideEnough = window.innerWidth > 760;
     if (!prefersReducedMotion && isWideEnough) {
       var videoSource = document.createElement("source");
-      videoSource.src = "assets/introvideo.mp4";
+      videoSource.src = "assets/introvideo2.mp4";
       videoSource.type = "video/mp4";
       heroVideo.appendChild(videoSource);
       heroVideo.addEventListener("playing", function () {
