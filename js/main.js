@@ -67,7 +67,7 @@
       "team.desc": "只是两个真心热爱 Live2D 的人。一个负责美术与巧思，一个负责把它用代码实现、搬上你的桌面——合起来，就是 Live2D Cursor。",
       "team.modeler.role": "Live2D 模型师/策划",
       "team.modeler.name": "建模师",
-      "team.modeler.bio": "自 2020 年起从事 Live2D 建模，拥有丰富的商业委托与个人作品经验，作品入选过官方评选活动并获奖。希望 Live2D 能有更多的运用场所，于是计划起了 Live2D Cursor 项目。",
+      "team.modeler.bio": "自 2020 年起从事 Live2D 建模，拥有丰富的商业委托与个人作品经验。希望 Live2D 能有更多的运用场所，于是计划起了 Live2D Cursor 项目。",
       "team.modeler.tag1": "建模经验始于 2020",
       "team.modeler.tag2": "获官方奖项认可",
       "team.dev.role": "程序开发",
