@@ -1,6 +1,6 @@
-# Live2DCursor — 宣传网站
+# Live2D Cursor — 宣传网站
 
-这是 `Live2DCursor`（开发代号 EasyAnchor）项目的静态宣传页面，纯 HTML / CSS / JS，无需构建工具，可以直接部署到 GitHub Pages。
+这是 `Live2D Cursor`（开发代号 EasyAnchor）项目的静态宣传页面，纯 HTML / CSS / JS，无需构建工具，可以直接部署到 GitHub Pages。
 
 ## 目录结构
 
