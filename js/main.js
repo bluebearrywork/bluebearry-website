@@ -27,8 +27,7 @@
       "meta.description": "Live2DCursor 把任意 Live2D 模型锚定在你的鼠标光标上——光标去哪，模型就跟到哪；拖拽甩出弹性物理效果，热键一键触发表情。原生 C++ 轻量运行，支持 OBS 友好背景模式与 5 国语言。",
       "nav.features": "功能",
       "nav.how": "工作原理",
-      "nav.languages": "语言",
-      "nav.steamCta": "Steam 上架准备中",
+      "nav.languages": "语言",      "nav.team": "团队",      "nav.steamCta": "Steam 上架准备中",
       "hero.eyebrow": "轻松让你的 Live2D 模型跟随鼠标移动！",
       "hero.sub": "Live2D鼠标桌宠",
       "hero.desc": "导入任意 Live2D 模型，让它跟随鼠标移动，并加入物理效果、快捷键表情与待机动画。无论是直播、绘画、视频录制，还是日常使用电脑，都能让你的角色陪伴你的每一次点击。",
@@ -63,7 +62,25 @@
       "cta.desc": "Live2DCursor 基于 Live2D Cubism SDK 原生构建，Steam 上架准备中。",
       "cta.btn": "Steam 上架准备中",
       "footer.tagline": "轻量级 Live2D 鼠标跟随桌宠",
-      "footer.note": "基于 <a href=\"https://www.live2d.com/\" target=\"_blank\" rel=\"noopener\">Live2D Cubism SDK</a> 构建。"
+      "footer.note": "基于 <a href=\"https://www.live2d.com/\" target=\"_blank\" rel=\"noopener\">Live2D Cubism SDK</a> 构建。",
+      "team.meta.title": "Live2DCursor — 认识 Bluebearry 团队",
+      "team.meta.description": "Bluebearry 是一个专注打造 Live2DCursor 的两人独立团队。认识我们的 Live2D 模型师与程序开发者，欢迎联系 bluebearry.work@gmail.com。",
+      "team.eyebrow": "认识我们的团队",
+      "team.h1": "我们是 Bluebearry 🐻",
+      "team.desc": "只是两个真心热爱 Live2D 的人。一个负责把角色的灵魂捏出来，一个负责把它写进代码、搬上你的桌面——合起来，就是 Live2DCursor。",
+      "team.modeler.role": "Live2D 模型师",
+      "team.modeler.name": "建模师",
+      "team.modeler.bio": "自 2020 年起从事 Live2D 建模，拥有丰富的商业委托与个人作品经验，作品多次入选官方评选活动并获奖。对自然形变、表情绑定与物理效果有着极致的追求，让每一个模型都真正“活”起来。",
+      "team.modeler.tag1": "建模经验始于 2020",
+      "team.modeler.tag2": "获官方奖项认可",
+      "team.dev.role": "程序开发",
+      "team.dev.name": "程序员",
+      "team.dev.bio": "经验丰富的 C++ 工程师，深耕实时图形与底层系统开发。基于原生 Cubism SDK 从零打造 Live2DCursor，对每一帧的性能都反复打磨，只为让你的模型运行得流畅、跟手、够轻量。",
+      "team.dev.tag1": "原生 C++",
+      "team.dev.tag2": "实时渲染",
+      "team.contact.h2": "联系我们",
+      "team.contact.desc": "有问题、建议，或者单纯想聊聊 Live2D？我们很乐意听你说。",
+      "team.contact.btn": "✉ bluebearry.work@gmail.com"
     };
 
     var en = {}; // captured from the authored English DOM on first load
@@ -76,7 +93,8 @@
         en[el.getAttribute("data-i18n-html")] = el.innerHTML;
       });
       var metaDesc = document.getElementById("metaDescription");
-      en["meta.description"] = metaDesc ? metaDesc.getAttribute("content") : "";
+      var metaDescKey = metaDesc ? (metaDesc.getAttribute("data-i18n") || "meta.description") : "meta.description";
+      en[metaDescKey] = metaDesc ? metaDesc.getAttribute("content") : "";
     }
 
     function applyLanguage(lang) {
@@ -92,7 +110,8 @@
       });
 
       var metaDesc = document.getElementById("metaDescription");
-      if (metaDesc && dict["meta.description"]) metaDesc.setAttribute("content", dict["meta.description"]);
+      var metaDescKey = metaDesc ? (metaDesc.getAttribute("data-i18n") || "meta.description") : "meta.description";
+      if (metaDesc && dict[metaDescKey]) metaDesc.setAttribute("content", dict[metaDescKey]);
 
       document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
 
